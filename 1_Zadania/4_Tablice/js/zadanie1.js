@@ -39,11 +39,14 @@ for (var i = 0 ; i<tab.length ; i++){
 //Zadanie 1
 
 var avg = [4, 4, 1, 2, 5, 40];
-var sum = 0;
-    for (var i = 0 ; i<=avg.length ; i++){
-    sum = sum + avg[i];
-}
-console.log(sum);
+var suma = 0;
+//var len = avg.length; - alternatywne rozwiazanie
+
+    for(var i = 0 ; i<avg.length ; i++){
+        suma +=avg[i];
+    }
+
+    console.log(suma/avg.length);
 
 
 

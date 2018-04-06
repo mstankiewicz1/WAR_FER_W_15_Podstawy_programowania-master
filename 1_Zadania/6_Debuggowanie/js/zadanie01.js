@@ -5,7 +5,7 @@ function doSomething(number) {
     var slideWidth = 400;
     var baz;
 
-    var foo = "Galeria ma ;
+    var foo = "Galeria ma" ;
     console.log(foo + numberofslides + ' zdjęcia');
 
     var naj = "naj ";
