@@ -1,33 +1,38 @@
 function checkNumber(number){
-  var type = typeof number;
+    var type = typeof number;
 
-  if(type === 'string') {
-   return 'Your number is string';
-  }
+    if(type === 'string') {
+        return 'Your number is string';
+    }
 
-  if(type === undefined) {
-   return 'Your number is undefined';
-  }
+    if(type === undefined) {
+        return 'Your number is undefined';
+    }
 
-  if(type === null) {
-   return 'Your number is null';
-  }
+    if(type === null) {
+        return 'Your number is null';
+    }
+    else {
+        return 'Your number is really number';
+    }
 
-  return 'Your number is really number';
+};
 
-}
+
+
+
 
 
 function countSomething() {
- var foo;
- console.log(checkNumber(foo));
+    var foo =1;
+    console.log(checkNumber(foo));
 
- var bar = "lalalala";
- console.log(checkNumber(bar));
+    var bar = "lalalala";
+    console.log(checkNumber(bar));
 
 
- var baz = null;
- console.log(checkNumber(baz));
+    var baz = null;
+    console.log(checkNumber(baz));
 }
 
 countSomething();

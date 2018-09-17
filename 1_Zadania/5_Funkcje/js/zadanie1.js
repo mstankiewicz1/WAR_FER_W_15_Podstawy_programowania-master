@@ -36,3 +36,10 @@ console.log(Potęga(2,3));
 
 //Zadania do samodzielnego wykonania
 
+//zad 1
+function miksowanie(name) {
+    var zmiksowana = 'zmiksowana';
+    return zmiksowana + name ;
+}
+
+console.log(miksowanie(' marchewka'));
